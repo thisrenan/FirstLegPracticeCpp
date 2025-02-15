@@ -168,9 +168,7 @@ int main()
         last = last + temp;
 
         aux++;
-    }
-
-   
+    }   
 
     cout <<endl<<endl;  
     
@@ -178,37 +176,41 @@ int main()
     
     cout << "13. Create a program that asks for two numbers and prints the largest of them." <<endl<<endl;
 
-    int num1, num2;
+    int number1, number2;
     cout << "Enter an integer number:";
-    cin >> num1;
+    cin >> number1;
     cout << "Enter another integer number:";
-    cin >> num2;
+    cin >> number2;
 
-    if (num1 > num2)
+    if (number1 > number2)
     {
-        cout << num1;
+        cout << number1;
     }
     else
     {
-        cout << num2;
+        cout << number2;
     }
 
-    /*
+     /*
+     
+
+    cout <<endl<<endl;      
     
     cout << "14. Create a program that asks for a value and shows on the screen whether the value is positive or negative." <<endl<<endl;
 
-    float valor;
-    printf("Digite um numero: ");
-    scanf("%f", &valor);
-    if (valor > 0)
+    float value;
+    cout << "Enter a value:";
+    cin >> value;
+    if (value > 0)
     {
         printf("O valor digitado é positivo");
     }
-    else if (valor < 0)
+    else if (value < 0)
     {
         printf("O valor digitado é negativo");
     }
 
+   
     
     cout << "15. Create a program that checks whether a typed letter is a vowel or a consonant." <<endl<<endl;
 

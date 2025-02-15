@@ -171,28 +171,29 @@ int main()
     }
 
    
-    /*
+
+    cout <<endl<<endl;  
     
     cout << "# Decision structures" <<endl<<endl;
     
     cout << "13. Create a program that asks for two numbers and prints the largest of them." <<endl<<endl;
 
     int num1, num2;
-    printf("Digite um numero inteiro: ");
-    scanf("%i", &num1);
-    printf("Digite outro numero inteiro: ");
-    getchar();
-    scanf("%i", &num2);
+    cout << "Enter an integer number:";
+    cin >> num1;
+    cout << "Enter another integer number:";
+    cin >> num2;
 
     if (num1 > num2)
     {
-        printf("%i", num1);
+        cout << num1;
     }
     else
     {
-        printf("%i", num2);
+        cout << num2;
     }
 
+    /*
     
     cout << "14. Create a program that asks for a value and shows on the screen whether the value is positive or negative." <<endl<<endl;
 

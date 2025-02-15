@@ -148,12 +148,30 @@ int main()
     downloadTime = archiveSizeMegaBits / internetSpeed;
     cout << "The approximate time to download the file is " << downloadTime << " seconds";
 
-    /*
+    cout <<endl<<endl;  
+   
     cout << "12. Create a program to generate the Fibonacci series. Fibonacci is a sequence of terms that have as the first 2 terms, respectively, the numbers 0 and 1. From there, the other terms are formed following a certain rule. The Fibonacci series can be seen below:" << endl;
     cout << "0 1 1 2 3 5 8 13 21..." <<endl<<endl;
 
-   
+    int n, aux=3, temp, last=1, lastButOne=0;
 
+    cout << "How much terms to show?";
+    cin >> n;
+
+    cout << lastButOne << endl << last << endl;
+
+    while(aux<=n){
+        cout << (last+lastButOne) << endl;
+
+        temp = lastButOne;
+        lastButOne = last;
+        last = last + temp;
+
+        aux++;
+    }
+
+   
+    /*
     
     cout << "# Decision structures" <<endl<<endl;
     

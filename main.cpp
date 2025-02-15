@@ -114,13 +114,7 @@ int main()
     cout << "how much you paid to the union." << endl;
     cout << "net salary. Calculate the discounts and the net salary, according to the table below: + Gross Salary: R$ - IR (11%): R$ - INSS (8%): ​​R$ - Union (5%): R$ = Net Salary: R$ Note: Gross Salary - Discounts = Net Salary. "<<endl<<endl;
         
-    float hourSalary,
-    hoursWorked,
-    IR,
-    INSS,
-    socialsecurity,
-    netSalary,
-    grossSalary;
+    float hourSalary, hoursWorked, IR, INSS, socialsecurity, netSalary, grossSalary;
 
     cout << "Digite quanto voce recebe por hora: ";
     cin >> hourSalary;
@@ -139,26 +133,22 @@ int main()
     cout << "- Social Security (5%): " << socialsecurity << endl;
     cout << "= Net Salary: " << netSalary << endl;
         
-    /*
+    cout <<endl<<endl;      
+    
     cout << "11. Create a program that asks for the size of a file to download (in MB) and the speed of an Internet link (in Mbps), calculate and inform the approximate download time of the file using this link (in minutes). "<<endl<<endl;
 
-    float tamanhoDoArquivo,
-        velocidadeDaInternet,
-        tamanhoDoArquivoEmMegaBits,
-        tempoDeDownload;
+    float archiveSize, internetSpeed, archiveSizeMegaBits, downloadTime;
 
-    printf("Digite o tamanho do arquivo em MB (Mega Bytes): ");
-    scanf("%f", &tamanhoDoArquivo);
-    printf("Digite a velocidade da internet em Mbps (Mega bits por segundo): ");
-    scanf("%f", &velocidadeDaInternet);
-    // Eu criei a variável abaixo apenas para deixar claro que 1MB são 8Mb.
-    // Ela não é totalmente necessária
-    tamanhoDoArquivoEmMegaBits = tamanhoDoArquivo * 8;
-    tempoDeDownload = tamanhoDoArquivoEmMegaBits / velocidadeDaInternet;
-    printf("O tempo aproximado para o download do arquivo é de %.0f segundos",
-           tempoDeDownload);
+    cout << "Enter the file size in MB (Mega Bytes):";
+    cin >> archiveSize;
+    cout << "Enter your internet speed in Mbps (Mega bits per second): ";
+    cin >> internetSpeed;
+    // I created the variable below just to make it clear that 1MB is 8Mb // But It is not necessary
+    archiveSizeMegaBits = archiveSize * 8;
+    downloadTime = archiveSizeMegaBits / internetSpeed;
+    cout << "The approximate time to download the file is " << downloadTime << " seconds";
 
-
+    /*
     cout << "12. Create a program to generate the Fibonacci series. Fibonacci is a sequence of terms that have as the first 2 terms, respectively, the numbers 0 and 1. From there, the other terms are formed following a certain rule. The Fibonacci series can be seen below:" << endl;
     cout << "0 1 1 2 3 5 8 13 21..." <<endl<<endl;
 

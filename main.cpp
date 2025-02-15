@@ -106,7 +106,6 @@ int main()
     cout << "Your ideal weight is: " << weightIdealH  << "kg if you are a man " << weightIdealM << "kg if you are woman";
     
     cout <<endl<<endl;  
-    /*
 
     cout << "10. Create a program that asks how much you earn per hour and the number of hours worked in the month." << endl;
     cout << "Calculate and display your total salary for the month, knowing that 11% is deducted for income tax, 8% for social security and 5% for the union. Create a program that gives us:" << endl;
@@ -114,35 +113,33 @@ int main()
     cout << "how much you paid to social security." << endl;
     cout << "how much you paid to the union." << endl;
     cout << "net salary. Calculate the discounts and the net salary, according to the table below: + Gross Salary: R$ - IR (11%): R$ - INSS (8%): ​​R$ - Union (5%): R$ = Net Salary: R$ Note: Gross Salary - Discounts = Net Salary. "<<endl<<endl;
-    
-    
-    float salarioHora,
-    horasTrabalhadas2,
+        
+    float hourSalary,
+    hoursWorked,
     IR,
     INSS,
-    sindicato,
-    salarioLiquido,
-    salarioBruto;
+    socialsecurity,
+    netSalary,
+    grossSalary;
 
-    printf("Digite quanto voce recebe por hora: ");
-    scanf("%f", &salarioHora);
-    printf("Digite quantas horas voce trabalhou esse mes: ");
-    getchar();
-    scanf("%f", &horasTrabalhadas2);
+    cout << "Digite quanto voce recebe por hora: ";
+    cin >> hourSalary;
+    cout << "Digite quantas horas voce trabalhou esse mes: ";
+    cin >> hoursWorked;
 
-    salarioBruto = salarioHora * horasTrabalhadas2;
-    IR = salarioBruto * (11.0 / 100);
-    INSS = salarioBruto * (8.0 / 100);
-    sindicato = salarioBruto * (5.0 / 100);
-    salarioLiquido = salarioBruto - IR - INSS - sindicato;
+    grossSalary = hourSalary * hoursWorked;
+    IR = grossSalary * (11.0 / 100);
+    INSS = grossSalary * (8.0 / 100);
+    socialsecurity = grossSalary * (5.0 / 100);
+    netSalary = grossSalary - IR - INSS - socialsecurity;
 
-    printf("+ Salário Bruto : R$%.2f\n", salarioBruto);
-    printf("- IR (11%) : R$%.2f\n", IR);
-    printf("- INSS (8%) : R$%.2f\n", INSS);
-    printf("- Sindicato ( 5%) : R$%.2f\n", sindicato);
-    printf("= Salário Liquido : R$%.2f", salarioLiquido);
+    cout << "+ Gross Salary: " << grossSalary << endl;
+    cout << "- IR (11%): " << IR << endl;
+    cout << "- INSS (8%): " << INSS << endl;
+    cout << "- Social Security (5%): " << socialsecurity << endl;
+    cout << "= Net Salary: " << netSalary << endl;
         
-    
+    /*
     cout << "11. Create a program that asks for the size of a file to download (in MB) and the speed of an Internet link (in Mbps), calculate and inform the approximate download time of the file using this link (in minutes). "<<endl<<endl;
 
     float tamanhoDoArquivo,

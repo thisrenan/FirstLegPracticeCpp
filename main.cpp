@@ -191,8 +191,8 @@ int main()
         cout << number2;
     }
 
-     /*
      
+
 
     cout <<endl<<endl;      
     
@@ -203,14 +203,14 @@ int main()
     cin >> value;
     if (value > 0)
     {
-        printf("O valor digitado é positivo");
+        printf("The value entered is positive.");
     }
     else if (value < 0)
     {
-        printf("O valor digitado é negativo");
+        printf("The value entered is negative.");
     }
 
-   
+   /*
     
     cout << "15. Create a program that checks whether a typed letter is a vowel or a consonant." <<endl<<endl;
 

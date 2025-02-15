@@ -78,10 +78,10 @@ int main()
     cout << "Use the formula = C = (5 * (F-32) / 9)." << endl;
 
     float grausC, grausF;
-    printf("Digite a temperatura em graus Farenheit: ");
-    scanf("%f", &grausF);
+    cout << "Inform the temperature in Farenheit: ";
+    cin >> grausF;
     grausC = (5 * (grausF - 32) / 9);
-    printf("%.2f graus Farenheit correspondem a %.2f graus Celsius", grausF, grausC);    
+    cout << grausF << " Farenheit corresponds to " << grausC << " Celsius";    
     
     /*
     cout << "8. Create a program that calculates a person's ideal weight using the person's height as input data. Use the following formula: (72.7*height) - 58" <<endl<<endl;

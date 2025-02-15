@@ -46,7 +46,6 @@ net salary. Calculate the discounts and the net salary, according to the table b
 15. Create a program that checks whether a typed letter is a vowel or a consonant.
 
 16. Create a program to read two partial grades of a student.
-
 The program should calculate the average achieved by each student and display:
 The message "Approved", if the average achieved is greater than or equal to seven;
 The message "Failed", if the average is less than seven;

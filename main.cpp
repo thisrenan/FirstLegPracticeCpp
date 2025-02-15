@@ -91,21 +91,23 @@ int main()
     cin >> height;
     weight = (72.7 * height) - 58;
     cout << "Your ideal weight is: " << weight << "kg";
-
-    /*
-    
+   
+    cout <<endl<<endl;
+     
     cout << "9. Create a program that calculates a person's ideal weight, using the person's height (h) as input. Use the following formulas:" << endl;
     cout << "For men: (72.7*h) - 58" << endl;
     cout << "For women: (62.1*h) - 44.7" <<endl<<endl;
 
-    float altura2, pesoIdealH, pesoIdealM;
-    printf("Digite sua altura em m: ");
-    scanf("%f", &altura);
-    pesoIdealH = (72.7 * altura2) - 58;
-    pesoIdealM = (62.1 * altura2) - 44.7;
-    printf( "O seu peso ideal eh:\n%.2fkg se voce for homem\n%.2fkg se voce for mulher",
-        pesoIdealH, pesoIdealM);
+    float weightIdealH, weightIdealM;
+    cout << "Inform your height:";
+    cin >> height;
+    weightIdealH = (72.7 * height) - 58;
+    weightIdealM = (62.1 * height) - 44.7;
+    cout << "Your ideal weight is: " << weightIdealH  << "kg if you are a man " << weightIdealM << "kg if you are woman";
     
+    cout <<endl<<endl;  
+    /*
+
     cout << "10. Create a program that asks how much you earn per hour and the number of hours worked in the month." << endl;
     cout << "Calculate and display your total salary for the month, knowing that 11% is deducted for income tax, 8% for social security and 5% for the union. Create a program that gives us:" << endl;
     cout << "gross salary." << endl;

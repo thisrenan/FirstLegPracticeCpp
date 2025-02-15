@@ -71,27 +71,28 @@ int main()
     salary = salaryHours * workHours;
     cout << "Your month salary is $ " << salary;
 
-
     cout <<endl<<endl;  
 
     cout << "7. Create a program that requests the temperature in degrees Fahrenheit, converts it and displays it in degrees Celsius." <<endl<<endl;
     cout << "Use the formula = C = (5 * (F-32) / 9)." << endl;
 
-    float grausC, grausF;
+    float degreesC, degreesF;
     cout << "Inform the temperature in Farenheit: ";
-    cin >> grausF;
-    grausC = (5 * (grausF - 32) / 9);
-    cout << grausF << " Farenheit corresponds to " << grausC << " Celsius";    
-    
-    /*
+    cin >> degreesF;
+    degreesC = (5 * (degreesF - 32) / 9);
+    cout << degreesF << " Farenheit corresponds to " << degreesC << " Celsius";       
+
+    cout <<endl<<endl;  
+
     cout << "8. Create a program that calculates a person's ideal weight using the person's height as input data. Use the following formula: (72.7*height) - 58" <<endl<<endl;
 
-    float altura, pesoIdeal;
-    printf("Digite sua altura: ");
-    scanf("%f", &altura);
-    pesoIdeal = (72.7 * altura) - 58;
-    printf("Seu peso ideal eh: %.2fkg", pesoIdeal);
+    float height, weight;
+    cout << "Inform your height:";
+    cin >> height;
+    weight = (72.7 * height) - 58;
+    cout << "Your ideal weight is: " << weight << "kg";
 
+    /*
     
     cout << "9. Create a program that calculates a person's ideal weight, using the person's height (h) as input. Use the following formulas:" << endl;
     cout << "For men: (72.7*h) - 58" << endl;

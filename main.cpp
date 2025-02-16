@@ -209,9 +209,7 @@ int main()
     {
         printf("The value entered is negative.");
     }
-
   
-
     cout <<endl<<endl;   
     
     cout << "15. Create a program that checks whether a typed letter is a vowel or a consonant." <<endl<<endl;
@@ -230,8 +228,8 @@ int main()
     }
 
     //or
-
-    letter;
+    
+    letter = '\0'; //"reset" the char variable with a null value
     cout << "Digite uma letter: ";
     cin >> letter;
 
@@ -247,8 +245,8 @@ int main()
     {
         cout << "Consonant";
     }
-
-    /*
+/*
+    cout <<endl<<endl; 
     
     cout << "16. Create a program to read two partial grades of a student." << endl;    
     cout << "The program should calculate the average achieved by each student and display:" << endl;
@@ -256,22 +254,21 @@ int main()
     cout << "The message \"Failed\", if the average is less than seven;" << endl;
     cout << "The message \"Approved with Distinction\", if the average is equal to ten." <<endl<<endl;
 
-    float nota1, nota2, media;
-    printf("Digite a primeira nota: ");
-    scanf("%f", &nota1);
-    printf("Digite a segunda nota: ");
-    getchar();
-    scanf("%f", &nota2);
-    media = (nota1 + nota2) / 2.0;
-    if (media == 10)
-        printf("Aprovado com Distinção");
-    else if (media >= 7)
-        printf("Aprovado");
+    float firstGrade, secondGrade, averageGrade;
+    cout << "Enter the first grade: ";
+    cin >> firstGrade;
+    cout << "Enter the second grade: ";
+    cin >> secondGrade;
+    averageGrade = (firstGrade + secondGrade) / 2.0;
+
+    if (averageGrade == 10)
+        cout << "Approved with Distinction";
+    else if (averageGrade >= 7)
+        cout << "Approved";
     else
-        printf("Reprovado");
-    //Se o if (ou else if ou else) tem SOMENTE UM COMANDO
-    //terminado por ponto e vírgula (;) não é necessário criar
-    //um bloco (colocar as chaves {})
+        cout << "Failed";
+
+    //If the if (or else if or else) has ONLY ONE COMMAND ending with a semicolon (;) it is not necessary to create a block (put the curly braces {})
 
     
     cout << "17. Create a program that reads three numbers and displays the largest of them." <<endl<<endl;

@@ -358,30 +358,32 @@ int main()
 
     
     cout <<endl<<endl; 
-    /*
+    
     cout << "20. Create a program that reads three numbers and displays them in descending order." <<endl<<endl;
 
-    float numero1, numero2, numero3;
-    printf("Digite um numero: ");
-    scanf("%f", &numero1);
-    printf("Digite outro numero: ");
-    scanf("%f", &numero2);
-    printf("Digite mais um numero: ");
-    scanf("%f", &numero3);
-    if (numero1 > numero2 && numero2 > numero3)
-        printf("%f %f %f", numero1, numero2, numero3);
-    else if (numero1 > numero3 && numero3 > numero2)
-        printf("%f %f %f", numero1, numero3, numero2);
-    else if (numero2 > numero1 && numero1 > numero3)
-        printf("%f %f %f", numero2, numero1, numero3);
-    else if (numero2 > numero3 && numero3 > numero1)
-        printf("%f %f %f", numero2, numero3, numero1);
-    else if (numero3 > numero1 && numero1 > numero2)
-        printf("%f %f %f", numero3, numero1, numero2);
-    else
-        printf("%f %f %f", numero3, numero2, numero1);
+    float numberOne, numberTwo, numberThree;
 
+    cout << "Inform the first number: ";
+    cin >> numberOne;
+    cout << "Inform the second number: ";
+    cin >> numberTwo;
+    cout << "Inform the third number: ";
+    cin >> numberThree;
     
+    if (numberOne > numberTwo && numberTwo > numberThree)
+        cout << numberOne << numberTwo << numberThree;
+    else if (numberOne > numberThree && numberThree > numberTwo)
+        cout << numberOne << numberThree << numberTwo;
+    else if (numberTwo > numberOne && numberOne > numberThree)
+        cout << numberTwo << numberOne << numberThree;
+    else if (numberTwo > numberThree && numberThree > numberOne)
+        cout << numberTwo << numberThree << numberOne;
+    else if (numberThree > numberOne && numberThree > numberTwo)
+        cout << numberThree << numberOne << numberTwo;
+    else
+        cout << numberThree << numberTwo << numberOne;
+
+    /*
     cout << "21. Create a program that reads the price of a product and inflates that price by 10% if it is less than 100 and by 20% if it is greater than or equal to 100." <<endl<<endl;
     
     

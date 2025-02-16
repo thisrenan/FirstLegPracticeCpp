@@ -281,18 +281,13 @@ int main()
     cin >> secondNumber;
     cout << "Enter the third number: ";
     cin >> thirdNumber;
+
     if (firstNumber > secondNumber && firstNumber > thirdNumber)
-    {
-        cout << firstNumber << " has the bigger number.";
-    }
+        cout << firstNumber << " was the bigger number.";
     else if (secondNumber > firstNumber && secondNumber > thirdNumber)
-    {
-        cout << secondNumber << " has the bigger number.";
-    }
+        cout << secondNumber << " was the bigger number.";
     else
-    {
-        cout << thirdNumber << " has the bigger number.";
-    }
+        cout << thirdNumber << " was the bigger number.";
 
     //or
 
@@ -313,38 +308,37 @@ int main()
         biggerNumber = numberInformed;
         
     cout << biggerNumber << " has the bigger number.";
-
-    /*
+    
     cout <<endl<<endl; 
 
     cout << "18. Create a program that reads three numbers and displays the largest and smallest of them." <<endl<<endl;
 
-    float numero1, numero2, numero3;
-    printf("Digite um numero: ");
-    scanf("%f", &numero1);
-    printf("Digite outro numero: ");
-    getchar();
-    scanf("%f", &numero2);
-    printf("Digite mais um numero: ");
-    getchar();
-    scanf("%f", &numero3);
+    firstNumber = 0;
+    secondNumber = 0;
+    thirdNumber = 0;
 
-    if (numero1 > numero2 && numero1 > numero3)
-        printf("%f foi o maior numero digitado.", numero1);
-    else if (numero2 > numero1 && numero2 > numero3)
-        printf("%f foi o maior numero digitado.", numero2);
+    cout << "Enter the first number: ";
+    cin >> firstNumber;
+    cout << "Enter the second number: ";
+    cin >> secondNumber;
+    cout << "Enter the third number: ";
+    cin >> thirdNumber;
+
+    if (firstNumber > secondNumber && firstNumber > thirdNumber)
+        cout << firstNumber << " was the bigger number.";
+    else if (secondNumber > firstNumber && secondNumber > thirdNumber)
+        cout << secondNumber << " was the bigger number.";
     else
-        printf("%f foi o maior numero digitado.", numero3);
+        cout << thirdNumber << " was the bigger number.";
 
-    if (numero1 < numero2 && numero1 < numero3)
-        printf("\n%f foi o menor numero digitado.", numero1);
-    else if (numero2 < numero1 && numero2 < numero3)
-        printf("\n%f foi o menor numero digitado.", numero2);
+    if (firstNumber < secondNumber && firstNumber < thirdNumber)
+        cout << firstNumber << " was the smaller number.";
+    else if (secondNumber < firstNumber && secondNumber < thirdNumber)
+        cout << secondNumber << " was the smaller number.";
     else
-        printf("\n%f foi o menor numero digitado.", numero3);
-
+        cout << thirdNumber << " was the smaller number.";        
     
-    
+    /*
     cout << "19. Create a program that asks for the price of three products and tells you which product you should buy, knowing that the decision is always the cheapest." <<endl<<endl;
     
     float preco1, preco2, preco3;

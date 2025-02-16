@@ -210,42 +210,45 @@ int main()
         printf("The value entered is negative.");
     }
 
-   /*
+  
+
+    cout <<endl<<endl;   
     
     cout << "15. Create a program that checks whether a typed letter is a vowel or a consonant." <<endl<<endl;
 
-    char letra;
-    printf("Digite uma letra: ");
-    scanf("%c", &letra);
-    if (letra == 'A' || letra == 'E' || letra == 'I' || letra == 'O' || letra == 'U' || letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u')
+    char letter;
+    cout << "Enter a letter: ";
+    cin >> letter
+    ;
+    if (letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O' || letter == 'U' || letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u')
     {
-        printf("Vogal");
+        cout << "Vowel";
     }
     else
     {
-        printf("Consoante");
+        cout << "Consonant";
     }
 
     //or
 
-    char letra;
-    printf("Digite uma letra: ");
-    scanf("%c", &letra);
+    letter;
+    cout << "Digite uma letter: ";
+    cin >> letter;
 
-    // toupper está na biblioteca ctype
-    //Agora a letra é maiúscula, e assim reduzimos as comparações
-    letra = toupper(letra);
+    // toupper is in ctype library
+    //Now the letter is capitalized, and so we reduce the comparisons
+    letter = toupper(letter);
 
-    if (letra == 'A' || letra == 'E' || letra == 'I' || letra == 'O' || letra == 'U')
+    if (letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O' || letter == 'U')
     {
-        printf("Vogal");
+        cout << "Vowel";
     }
     else
     {
-        printf("Consoante");
+        cout << "Consonant";
     }
 
-
+    /*
     
     cout << "16. Create a program to read two partial grades of a student." << endl;    
     cout << "The program should calculate the average achieved by each student and display:" << endl;

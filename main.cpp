@@ -270,32 +270,31 @@ int main()
 
     //If the if (or else if or else) has ONLY ONE COMMAND ending with a semicolon (;) it is not necessary to create a block (put the curly braces {})
 
-    /*
+    cout <<endl<<endl; 
+
     cout << "17. Create a program that reads three numbers and displays the largest of them." <<endl<<endl;
 
-    float numero1, numero2, numero3;
-    printf("Digite um numero: ");
-    scanf("%f", &numero1);
-    printf("Digite outro numero: ");
-    getchar();
-    scanf("%f", &numero2);
-    printf("Digite mais um numero: ");
-    getchar();
-    scanf("%f", &numero3);
-    if (numero1 > numero2 && numero1 > numero3)
+    float firstNumber, secondNumber, thirdNumber;
+    printf("Enter the first number: ");
+    cin >> firstNumber;
+    printf("Enter the second number: ");
+    cin >> secondNumber;
+    printf("Enter the third number: ");
+    cin >> thirdNumber;
+    if (firstNumber > secondNumber && firstNumber > thirdNumber)
     {
-        printf("%f foi o maior numero digitado.", numero1);
+        cout << firstNumber << " has the bigger number.";
     }
-    else if (numero2 > numero1 && numero2 > numero3)
+    else if (secondNumber > firstNumber && secondNumber > thirdNumber)
     {
-        printf("%f foi o maior numero digitado.", numero2);
+        cout << secondNumber << " has the bigger number.";
     }
     else
     {
-        printf("%f foi o maior numero digitado.", numero3);
+        cout << thirdNumber << " has the bigger number.";
     }
 
-    
+     /*
     cout << "18. Create a program that reads three numbers and displays the largest and smallest of them." <<endl<<endl;
 
     float numero1, numero2, numero3;

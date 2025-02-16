@@ -4,7 +4,6 @@ using namespace std;
 
 int main()
 {
-    /*
     cout << "# FirstLegPracticeCpp"<<endl<<endl;
     cout << "# Lets practice what we have been studying."<<endl<<endl;
     
@@ -294,8 +293,6 @@ int main()
     {
         cout << thirdNumber << " has the bigger number.";
     }
-
-    */
 
     //or
 

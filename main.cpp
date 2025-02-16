@@ -337,25 +337,28 @@ int main()
         cout << secondNumber << " was the smaller number.";
     else
         cout << thirdNumber << " was the smaller number.";        
-    
-    /*
+        
+    cout <<endl<<endl; 
+
     cout << "19. Create a program that asks for the price of three products and tells you which product you should buy, knowing that the decision is always the cheapest." <<endl<<endl;
     
-    float preco1, preco2, preco3;
-    printf("Digite o preço do produto 1: ");
-    scanf("%f", &preco1);
-    printf("Digite o preço do produto 2: ");
-    scanf("%f", &preco2);
-    printf("Digite o preço do produto 3: ");
-    scanf("%f", &preco3);
-    if (preco1 < preco2 && preco1 < preco3)
-        printf("O produto com o menor preco é o 1, custando R$%.2f", preco1);
-    else if (preco2 < preco1 && preco2 < preco3)
-        printf("O produto com o menor preco é o 2, custando R$%.2f", preco2);
+    float price1, price2, price3;
+    cout << "Inform the price of product one: ";
+    cin >> price1;
+    cout << "Inform the price of product two: ";
+    cin >> price2;
+    cout << "Inform the price of product three: ";
+    cin >> price3;
+    if (price1 < price2 && price1 < price3)
+        cout << "The product with the lowest price is product one, costing $" << price1;
+    else if (price2 < price1 && price2 < price3)
+        cout << "The product with the lowest price is product two, costing $" << price2;
     else
-        printf("O produto com o menor preco é o 3, custando R$%.2f", preco3);
+        cout << "The product with the lowest price is product three, costing $" << price3;
 
-
+    
+    cout <<endl<<endl; 
+    /*
     cout << "20. Create a program that reads three numbers and displays them in descending order." <<endl<<endl;
 
     float numero1, numero2, numero3;

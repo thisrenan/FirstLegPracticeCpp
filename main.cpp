@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+    /*
     cout << "# FirstLegPracticeCpp"<<endl<<endl;
     cout << "# Lets practice what we have been studying."<<endl<<endl;
     
@@ -275,11 +276,11 @@ int main()
     cout << "17. Create a program that reads three numbers and displays the largest of them." <<endl<<endl;
 
     float firstNumber, secondNumber, thirdNumber;
-    printf("Enter the first number: ");
+    cout << "Enter the first number: ";
     cin >> firstNumber;
-    printf("Enter the second number: ");
+    cout << "Enter the second number: ";
     cin >> secondNumber;
-    printf("Enter the third number: ");
+    cout << "Enter the third number: ";
     cin >> thirdNumber;
     if (firstNumber > secondNumber && firstNumber > thirdNumber)
     {
@@ -294,7 +295,31 @@ int main()
         cout << thirdNumber << " has the bigger number.";
     }
 
-     /*
+    */
+
+    //or
+
+    float numberInformed, biggerNumber;
+
+    cout << "Enter the first number: ";
+    cin >> numberInformed;
+    cout << "Enter the second number: ";
+    cin >> biggerNumber;
+
+    if (numberInformed > biggerNumber)
+        biggerNumber = numberInformed;
+
+    cout << "Enter the third number: ";
+    cin >> numberInformed;
+
+    if (numberInformed > biggerNumber)
+        biggerNumber = numberInformed;
+        
+    cout << biggerNumber << " has the bigger number.";
+
+    /*
+    cout <<endl<<endl; 
+
     cout << "18. Create a program that reads three numbers and displays the largest and smallest of them." <<endl<<endl;
 
     float numero1, numero2, numero3;
@@ -321,6 +346,7 @@ int main()
     else
         printf("\n%f foi o menor numero digitado.", numero3);
 
+    
     
     cout << "19. Create a program that asks for the price of three products and tells you which product you should buy, knowing that the decision is always the cheapest." <<endl<<endl;
     

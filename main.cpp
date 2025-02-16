@@ -369,7 +369,7 @@ int main()
     cin >> numberTwo;
     cout << "Inform the third number: ";
     cin >> numberThree;
-    
+
     if (numberOne > numberTwo && numberTwo > numberThree)
         cout << numberOne << numberTwo << numberThree;
     else if (numberOne > numberThree && numberThree > numberTwo)
@@ -383,21 +383,18 @@ int main()
     else
         cout << numberThree << numberTwo << numberOne;
 
-    /*
+    cout << endl<<endl;    
+
     cout << "21. Create a program that reads the price of a product and inflates that price by 10% if it is less than 100 and by 20% if it is greater than or equal to 100." <<endl<<endl;
     
-    
-    
+    float productPrice;
+    cout << "Inform the price of the product:";
+    cin >> productPrice;
 
-
-
-
-
-
-
-
-
-*/
+    if (productPrice >= 100)
+        cout << "The real product price is " << productPrice+(productPrice*0.20);
+    else
+        cout << "The real product price is " << productPrice+(productPrice*0.10);
 
     return 0;
 }

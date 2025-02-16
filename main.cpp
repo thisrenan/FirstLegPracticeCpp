@@ -245,7 +245,7 @@ int main()
     {
         cout << "Consonant";
     }
-/*
+
     cout <<endl<<endl; 
     
     cout << "16. Create a program to read two partial grades of a student." << endl;    
@@ -270,7 +270,7 @@ int main()
 
     //If the if (or else if or else) has ONLY ONE COMMAND ending with a semicolon (;) it is not necessary to create a block (put the curly braces {})
 
-    
+    /*
     cout << "17. Create a program that reads three numbers and displays the largest of them." <<endl<<endl;
 
     float numero1, numero2, numero3;

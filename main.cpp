@@ -148,33 +148,11 @@ int main()
     downloadTime = archiveSizeMegaBits / internetSpeed;
     cout << "The approximate time to download the file is " << downloadTime << " seconds";
 
-    cout <<endl<<endl;  
-   
-    cout << "12. Create a program to generate the Fibonacci series. Fibonacci is a sequence of terms that have as the first 2 terms, respectively, the numbers 0 and 1. From there, the other terms are formed following a certain rule. The Fibonacci series can be seen below:" << endl;
-    cout << "1 1 2 3 5 8 13 21..." <<endl<<endl;
-
-    int n, aux=3, temp, last=1, lastButOne=1;
-
-    cout << "How much terms to show?";
-    cin >> n;
-
-    cout << lastButOne << endl << last << endl;
-
-    while(aux<=n){
-        cout << (last+lastButOne) << endl;
-
-        temp = lastButOne;
-        lastButOne = last;
-        last = last + temp;
-
-        aux++;
-    }   
-
-    cout <<endl<<endl;  
+    cout <<endl<<endl;     
     
     cout << "# Decision structures" <<endl<<endl;
     
-    cout << "13. Create a program that asks for two numbers and prints the largest of them." <<endl<<endl;
+    cout << "12. Create a program that asks for two numbers and prints the largest of them." <<endl<<endl;
 
     int number1, number2;
     cout << "Enter an integer number:";
@@ -196,7 +174,7 @@ int main()
 
     cout <<endl<<endl;      
     
-    cout << "14. Create a program that asks for a value and shows on the screen whether the value is positive or negative." <<endl<<endl;
+    cout << "13. Create a program that asks for a value and shows on the screen whether the value is positive or negative." <<endl<<endl;
 
     float value;
     cout << "Enter a value:";
@@ -212,7 +190,7 @@ int main()
   
     cout <<endl<<endl;   
     
-    cout << "15. Create a program that checks whether a typed letter is a vowel or a consonant." <<endl<<endl;
+    cout << "14. Create a program that checks whether a typed letter is a vowel or a consonant." <<endl<<endl;
 
     char letter;
     cout << "Enter a letter: ";
@@ -248,7 +226,7 @@ int main()
 
     cout <<endl<<endl; 
     
-    cout << "16. Create a program to read two partial grades of a student." << endl;    
+    cout << "15. Create a program to read two partial grades of a student." << endl;    
     cout << "The program should calculate the average achieved by each student and display:" << endl;
     cout << "The message \"Approved\", if the average achieved is greater than or equal to seven;" << endl;
     cout << "The message \"Failed\", if the average is less than seven;" << endl;
@@ -272,7 +250,7 @@ int main()
 
     cout <<endl<<endl; 
 
-    cout << "17. Create a program that reads three numbers and displays the largest of them." <<endl<<endl;
+    cout << "16. Create a program that reads three numbers and displays the largest of them." <<endl<<endl;
 
     float firstNumber, secondNumber, thirdNumber;
     cout << "Enter the first number: ";
@@ -311,7 +289,7 @@ int main()
     
     cout <<endl<<endl; 
 
-    cout << "18. Create a program that reads three numbers and displays the largest and smallest of them." <<endl<<endl;
+    cout << "17. Create a program that reads three numbers and displays the largest and smallest of them." <<endl<<endl;
 
     firstNumber = 0;
     secondNumber = 0;
@@ -340,7 +318,7 @@ int main()
         
     cout <<endl<<endl; 
 
-    cout << "19. Create a program that asks for the price of three products and tells you which product you should buy, knowing that the decision is always the cheapest." <<endl<<endl;
+    cout << "18. Create a program that asks for the price of three products and tells you which product you should buy, knowing that the decision is always the cheapest." <<endl<<endl;
     
     float price1, price2, price3;
     cout << "Inform the price of product one: ";
@@ -359,7 +337,7 @@ int main()
     
     cout <<endl<<endl; 
     
-    cout << "20. Create a program that reads three numbers and displays them in descending order." <<endl<<endl;
+    cout << "19. Create a program that reads three numbers and displays them in descending order." <<endl<<endl;
 
     float numberOne, numberTwo, numberThree;
 
@@ -385,7 +363,7 @@ int main()
 
     cout << endl<<endl;    
 
-    cout << "21. Create a program that reads the price of a product and inflates that price by 10% if it is less than 100 and by 20% if it is greater than or equal to 100." <<endl<<endl;
+    cout << "20. Create a program that reads the price of a product and inflates that price by 10% if it is less than 100 and by 20% if it is greater than or equal to 100." <<endl<<endl;
     
     float productPrice;
     cout << "Inform the price of the product:";

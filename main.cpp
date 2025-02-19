@@ -151,9 +151,9 @@ int main()
     cout <<endl<<endl;  
    
     cout << "12. Create a program to generate the Fibonacci series. Fibonacci is a sequence of terms that have as the first 2 terms, respectively, the numbers 0 and 1. From there, the other terms are formed following a certain rule. The Fibonacci series can be seen below:" << endl;
-    cout << "0 1 1 2 3 5 8 13 21..." <<endl<<endl;
+    cout << "1 1 2 3 5 8 13 21..." <<endl<<endl;
 
-    int n, aux=3, temp, last=1, lastButOne=0;
+    int n, aux=3, temp, last=1, lastButOne=1;
 
     cout << "How much terms to show?";
     cin >> n;

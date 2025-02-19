@@ -34,29 +34,26 @@ net salary. Calculate the discounts and the net salary, according to the table b
 
 11. Create a program that asks for the size of a file to download (in MB) and the speed of an Internet link (in Mbps), calculate and inform the approximate download time of the file using this link (in minutes). 
 
-12. Create a program to generate the Fibonacci series. Fibonacci is a sequence of terms that have as the first 2 terms, respectively, the numbers 0 and 1. From there, the other terms are formed following a certain rule. The Fibonacci series can be seen below:
-0 1 1 2 3 5 8 13 21...
-
 # Decision structures
 
-13. Create a program that asks for two numbers and prints the largest of them.
+12. Create a program that asks for two numbers and prints the largest of them.
 
-14. Create a program that asks for a value and shows on the screen whether the value is positive or negative.
+13. Create a program that asks for a value and shows on the screen whether the value is positive or negative.
 
-15. Create a program that checks whether a typed letter is a vowel or a consonant.
+14. Create a program that checks whether a typed letter is a vowel or a consonant.
 
-16. Create a program to read two partial grades of a student.
+15. Create a program to read two partial grades of a student.
 The program should calculate the average achieved by each student and display:
 The message "Approved", if the average achieved is greater than or equal to seven;
 The message "Failed", if the average is less than seven;
 The message "Approved with Distinction", if the average is equal to ten.
 
-17. Create a program that reads three numbers and displays the largest of them.
+16. Create a program that reads three numbers and displays the largest of them.
 
-18. Create a program that reads three numbers and displays the largest and smallest of them.
+17. Create a program that reads three numbers and displays the largest and smallest of them.
 
-19. Create a program that asks for the price of three products and tells you which product you should buy, knowing that the decision is always the cheapest.
+18. Create a program that asks for the price of three products and tells you which product you should buy, knowing that the decision is always the cheapest.
 
-20. Create a program that reads three numbers and displays them in descending order.
+19. Create a program that reads three numbers and displays them in descending order.
 
-21. Create a program that reads the price of a product and inflates that price by 10% if it is less than 100 and by 20% if it is greater than or equal to 100.
+20. Create a program that reads the price of a product and inflates that price by 10% if it is less than 100 and by 20% if it is greater than or equal to 100.

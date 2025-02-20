@@ -1,6 +1,7 @@
 # FirstLegPracticeCpp
 
 This list of exercises refers to C++ programming studies and corresponds to the first part of the study.
+
 The list involves variable manipulation and programming logic.
 
 # Welcome to the First C++ Practice

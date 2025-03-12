@@ -116,9 +116,9 @@ int main()
         
     float hourSalary, hoursWorked, IR, INSS, socialsecurity, netSalary, grossSalary;
 
-    cout << "Digite quanto voce recebe por hora: ";
+    cout << "Tell me how much do you gain per hour: ";
     cin >> hourSalary;
-    cout << "Digite quantas horas voce trabalhou esse mes: ";
+    cout << "Tell me how much hours do you worked this month: ";
     cin >> hoursWorked;
 
     grossSalary = hourSalary * hoursWorked;

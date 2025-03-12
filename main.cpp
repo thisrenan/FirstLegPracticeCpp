@@ -181,11 +181,11 @@ int main()
     cin >> value;
     if (value > 0)
     {
-        printf("The value entered is positive.");
+        cout << "The value entered is positive.";
     }
     else if (value < 0)
     {
-        printf("The value entered is negative.");
+        cout << "The value entered is negative.";
     }
   
     cout <<endl<<endl;   

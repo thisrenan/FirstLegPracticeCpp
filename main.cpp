@@ -207,12 +207,10 @@ int main()
 
     //or
     
-    letter = '\0'; //"reset" the char variable with a null value
-    cout << "Digite uma letter: ";
+    letter = '\0'; 
+    cout << "Enter a letter: ";
     cin >> letter;
 
-    // toupper is in ctype library
-    //Now the letter is capitalized, and so we reduce the comparisons
     letter = toupper(letter);
 
     if (letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O' || letter == 'U')
